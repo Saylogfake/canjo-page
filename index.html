@@ -1,0 +1,447 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canjo | Desarrollo de Software a Medida</title>
+  <meta name="description" content="Canjo desarrolla landing pages, sistemas de gestion y soluciones digitales a medida para empresas. Resultados reales, entregas rapidas." />
+  <meta name="keywords" content="desarrollo software, landing pages, sistemas ERP, automatizacion, integraciones API, WhatsApp" />
+  <meta property="og:title" content="Canjo | Desarrollo de Software a Medida" />
+  <meta property="og:description" content="Soluciones digitales modernas, escalables y enfocadas en resultados reales." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- STICKY CTA -->
+  <div class="sticky-cta">
+    <a href="#contacto" class="btn-sticky">Solicitar presupuesto</a>
+  </div>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo"><img src="logo.png" alt="Canjo" class="logo-img" /></a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#sectores">Sectores</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#contacto" class="btn-nav">Contactar</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir meniº">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="container hero-inner">
+      <div class="hero-text" data-aos="fade-up">
+        <span class="badge">Desarrollo a medida &middot; Resultados reales</span>
+        <h1>Tu negocio merece un sistema que trabaje como vos.</h1>
+        <p class="hero-sub">Desarrollamos landing pages, sistemas de gestion y soluciones digitales a medida para empresas que quieren crecer sin depender de planillas ni procesos manuales.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn-primary">Solicitar presupuesto</a>
+          <a href="#servicios" class="btn-ghost">Ver servicios</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>+20</strong><span>proyectos entregados</span></div>
+          <div class="stat"><strong>7 di­as</strong><span>primer prototipo</span></div>
+          <div class="stat"><strong>100%</strong><span>Codigo Propio</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+        <div class="mockup-card">
+          <div class="mockup-bar"><span></span><span></span><span></span></div>
+          <div class="mockup-content">
+            <div class="mockup-row wide"></div>
+            <div class="mockup-row medium"></div>
+            <div class="mockup-cols">
+              <div class="mockup-block"></div>
+              <div class="mockup-block"></div>
+              <div class="mockup-block"></div>
+            </div>
+            <div class="mockup-row short"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMAS -->
+  <section class="problems" id="problemas">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>¿Te suena familiar?</h2>
+        <p>La mayoria de las empresas que nos contactan tienen estos problemas. No estas solo.</p>
+      </div>
+      <div class="problems-grid">
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="problem-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+          <h3>Excel y WhatsApp</h3>
+          <p>Tu operacion vive en planillas, chats y la cabeza de alguien. Si esa persona falta, el proceso se frena.</p>
+        </div>
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="problem-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h18M3 12h18M3 17h18"/></svg></div>
+          <h3>Informacion dispersa</h3>
+          <p>Los datos estan en distintos lugares y nadie sabe cual es la version correcta.</p>
+        </div>
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="problem-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></div>
+          <h3>Sistemas rigidos</h3>
+          <p>Probaste un software generico, pero no se adapta a tu proceso. Terminas trabajando para el sistema.</p>
+        </div>
+        <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="problem-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <h3>Cero visibilidad</h3>
+          <p>No tenes un tablero real de lo que pasa. Las decisiones se toman por intuicion, no por datos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SERVICIOS -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>¿Que desarrollamos?</h2>
+        <p>No vendemos horas. Entregamos soluciones que funcionan desde el primer di­a.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg></div>
+          <h3>Landing pages</h3>
+          <p>Paginas de conversion rapidas, optimizadas para SEO y diseñadas para captar clientes reales.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg></div>
+          <h3>Sistemas de Gestion (ERP)</h3>
+          <p>Digitalizamos tus procesos internos: cobranzas, inventario, pedidos, facturacion y mas.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+          <h3>Automatizacion de procesos</h3>
+          <p>Eliminamos tareas repetitivas con flujos automaticos que ahorran tiempo y reducen errores.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></div>
+          <h3>Integraciones (APIs / WhatsApp)</h3>
+          <p>Conectamos tus sistemas entre si ERP, tiendas online y pasarelas de pago, etc.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3>Soporte y mantenimiento</h3>
+          <p>Acompañamos el crecimiento de tu sistema con mejoras continuas y soporte tecnico.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+          <h3>Apps web</h3>
+          <p>Desarrollamos aplicaciones que funcionan en cualquier dispositivo, sin friccion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="about" id="nosotros">
+    <div class="container about-inner">
+      <div class="about-text" data-aos="fade-right">
+        <span class="badge">Sobre Canjo</span>
+        <h2>Soluciones digitales que realmente funcionan.</h2>
+        <p>En Canjo desarrollamos soluciones digitales modernas, escalables y enfocadas en resultados reales. Trabajamos con metodologi­as agiles para garantizar entregas rapidas y eficientes.</p>
+        <p>No somos una fabrica de codigo. Somos un equipo que entiende tu negocio antes de escribir una li­nea.</p>
+        <a href="#contacto" class="btn-primary">Hablemos de tu proyecto</a>
+      </div>
+      <div class="about-values" data-aos="fade-left" data-aos-delay="100">
+        <div class="value-item">
+          <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+          <div><h4>Calidad</h4><p>Codigo limpio, documentado y probado antes de cada entrega.</p></div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <div><h4>Agilidad</h4><p>Prototipos en 7 di­as. MVPs en semanas, no en meses.</p></div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+          <div><h4>Innovacion</h4><p>Usamos IA y frameworks modernos para reducir costos y tiempos.</p></div>
+        </div>
+        <div class="value-item">
+          <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <div><h4>Compromiso</h4><p>Hablas directo con quien desarrolla. Sin intermediarios.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METODO -->
+  <section class="method" id="metodo">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Como trabajamos</h2>
+        <p>Un proceso claro, por etapas, sin sorpresas. Vos validas cada paso antes de seguir.</p>
+      </div>
+      <div class="method-steps">
+        <div class="step" data-aos="fade-up" data-aos-delay="0">
+          <div class="step-num">01</div>
+          <h3>Diagnostico</h3>
+          <p>Reunion de 45 min para entender tu operacion, tus dolores y tus prioridades.</p>
+          <span class="step-time">45 min</span>
+        </div>
+        <div class="step" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-num">02</div>
+          <h3>Prototipo</h3>
+          <p>Diseñamos las pantallas clave para que veas como va a funcionar antes de escribir codigo.</p>
+          <span class="step-time">7-10 di­as</span>
+        </div>
+        <div class="step" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-num">03</div>
+          <h3>MVP Funcional</h3>
+          <p>Desarrollamos y entregamos la primera version usable con datos reales de tu negocio.</p>
+          <span class="step-time">3-6 semanas</span>
+        </div>
+        <div class="step" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-num">04</div>
+          <h3>Evolucion</h3>
+          <p>Iteramos con feedback real: nuevos flujos, mejoras, integraciones. Sin sorpresas.</p>
+          <span class="step-time">Continuo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTORES -->
+  <section class="sectors" id="sectores">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>¿Para quien trabajamos?</h2>
+        <p>Trabajamos con empresas de distintos rubros. El metodo es siempre el mismo: entender el proceso y construir la solucion justa.</p>
+      </div>
+      <div class="sectors-grid">
+        <div class="sector-card" data-aos="zoom-in" data-aos-delay="0">
+          <div class="sector-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <p>Comercios y Retail</p>
+        </div>
+        <div class="sector-card" data-aos="zoom-in" data-aos-delay="60">
+          <div class="sector-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg></div>
+          <p>Empresas Financieras</p>
+        </div>
+        <div class="sector-card" data-aos="zoom-in" data-aos-delay="120">
+          <div class="sector-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></div>
+          <p>Emprendedores</p>
+        </div>
+        <div class="sector-card" data-aos="zoom-in" data-aos-delay="180">
+          <div class="sector-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg></div>
+          <p>Servicios Profesionales</p>
+        </div>
+        <div class="sector-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="sector-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+          <p>Agencias Digitales</p>
+        </div>
+        <div class="sector-card" data-aos="zoom-in" data-aos-delay="360">
+          <div class="sector-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg></div>
+          <p>Restaurantes y Gastronomi­a</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PRECIOS -->
+  <section class="pricing" id="precios">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Planes y precios</h2>
+        <p>Transparencia desde el primer di­a. Sabes exactamente que incluye cada etapa.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="0">
+          <h3>Landing page</h3>
+          <div class="price">desde <strong>$30 USD</strong></div>
+          <ul>
+            <li>Diseño responsive</li>
+            <li>Optimizacion SEO</li>
+            <li>Formulario de contacto</li>
+            <li>Integracion WhatsApp</li>
+            <li>Entrega en 7 di­as</li>
+          </ul>
+          <a href="#contacto" class="btn-primary">Solicitar</a>
+        </div>
+        <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+          <span class="badge-featured">Mas solicitado</span>
+          <h3>Sistema a medida</h3>
+          <div class="price">desde <strong>$100 USD</strong></div>
+          <ul>
+            <li>Diagnostico + prototipo</li>
+            <li>MVP funcional</li>
+            <li>Roles y permisos</li>
+            <li>Tableros de gestion</li>
+            <li>Soporte incluido</li>
+          </ul>
+          <a href="#contacto" class="btn-primary">Solicitar</a>
+        </div>
+        <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Mantenimiento</h3>
+          <div class="price">desde <strong>$40 USD/mes</strong></div>
+          <ul>
+            <li>Soporte tecnico</li>
+            <li>Actualizaciones</li>
+            <li>Mejoras continuas</li>
+            <li>Backups automaticos</li>
+            <li>Respuesta en 24 hs</li>
+          </ul>
+          <a href="#contacto" class="btn-primary">Solicitar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS DE SUSCRIPCION -->
+  <section class="products" id="productos">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Nuestros productos de suscripción</h2>
+        <p>Soluciones listas para usar, con soporte incluido </p>
+      </div>
+      <div class="carousel-wrapper" data-aos="fade-up" data-aos-delay="100">
+        <div class="carousel-track" id="carouselTrack">
+
+          <!-- NEXPOS -->
+          <div class="product-card">
+            <div class="product-header">
+              <div class="product-logo">N</div>
+              <span class="product-badge">Disponible</span>
+            </div>
+            <h3>Nexpos</h3>
+            <p class="product-desc">Sistema de punto de venta para comercios y retail. Gestioná tus ventas, stock y clientes desde un solo lugar, sin complicaciones.</p>
+            <ul class="product-features">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg> Ventas y caja</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg> Inventario y stock</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg> Gestión de clientes</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg> Reportes y estadísticas</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg> Usuarios y roles</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg> Facturación</li>
+            </ul>
+            <div class="product-actions">
+              <a href="https://saas-pos-production.up.railway.app/login" target="_blank" rel="noopener" class="btn-primary">Probar ahora</a>
+              <a href="#contacto" class="btn-ghost">Más info</a>
+            </div>
+          </div>
+
+          <!-- PLACEHOLDER 2 -->
+          <div class="product-card product-coming">
+            <div class="product-header">
+              <div class="product-logo">?</div>
+              <span class="product-badge coming">Próximamente</span>
+            </div>
+            <h3>Próximo producto</h3>
+            <p class="product-desc">Estamos trabajando en nuevas soluciones para tu negocio. Suscribite para ser el primero en enterarte.</p>
+            <div class="product-actions">
+              <a href="#contacto" class="btn-ghost">Notificarme</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prevBtn" aria-label="Anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-btn" id="nextBtn" aria-label="Siguiente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Preguntas frecuentes</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-q">¿Cuanto tarda el primer entregable? <span>+</span></button>
+          <div class="faq-a"><p>El prototipo navegable se entrega en 7-10 di­as habiles. El MVP funcional, entre 3 y 6 semanas segiºn el alcance acordado.</p></div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-q">¿Pueden integrarse con mi sistema actual? <span>+</span></button>
+          <div class="faq-a"><p>Si­. Trabajamos con APIs REST, webhooks y conectores para los sistemas mas usados. Si ya tenes un ERP o CRM, lo complementamos.</p></div>
+        </div>
+        <div class="faq-item" data-aos="fade-up">
+          <button class="faq-q">¿Que pasa si quiero agregar funcionalidades despues? <span>+</span></button>
+          <div class="faq-a"><p>Para eso existe la etapa de evolucion mensual. Cada nueva funcionalidad se acota, se presupuesta y se entrega con el mismo metodo.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="container contact-inner">
+      <div class="contact-text" data-aos="fade-right">
+        <h2>¿Listo para dejar de improvisar?</h2>
+        <p>Contanos en que punto esta tu operacion. En 45 minutos te decimos si tu caso tiene solucion y cual seri­a el camino.</p>
+        <a href="https://wa.me/595976917543?text=Hola%2C%20quiero%20solicitar%20un%20presupuesto" target="_blank" rel="noopener" class="btn-whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Escribir por WhatsApp
+        </a>
+        <p class="contact-note">Respondemos en menos de 2 hs en horario laboral. Sin compromiso.</p>
+      </div>
+      <form class="contact-form" id="form" data-aos="fade-left" data-aos-delay="100" novalidate>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="telefono">Telefono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+54 9 11 0000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="empresa">Empresa</label>
+          <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu empresa" />
+        </div>
+        <button type="submit" class="btn-primary btn-full">Enviar consulta</button>
+        <p class="form-note">Sin spam. Tus datos son confidenciales.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo"><img src="logo.png" alt="Canjo" class="logo-img" /></a>
+        <p>Desarrollo de software a medida para empresas que quieren crecer.</p>
+      </div>
+<!--
+      <div class="footer-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#precios">Precios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+-->
+    <div class="footer-bottom">
+      <p>&copy; 2026  Canjo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/595976917543?text=Hola%2C%20quiero%20solicitar%20un%20presupuesto" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
